@@ -1,0 +1,117 @@
+
+* {
+  box-sizing: border-box;
+  text-align: center;
+}
+
+body {
+  background-color: gray;
+  font-size: 12pt;
+  color: #333;
+  font-family: sans-serif; 
+  line-height: 75px;
+  position: relative;
+  right: -70px;
+
+}
+
+header {
+  position: relative;
+  left: 79px;
+  width: 75%;
+  height: 2.3cm;
+  margin-bottom: 10px;
+  color:gray;
+  background: rgb(235, 232, 221);
+}
+
+#nav {
+  position: relative;
+  left: 79px;
+  float: left;
+  height: 2.5cm;
+  width: 75%;
+  color:gray;
+  background: rgb(235, 232, 221);
+}
+
+#H {
+  position: relative;
+  right: 75px;
+  bottom: -33px;
+  margin-top: 15px;
+  float: right;
+  width: 12cm;
+  height: 1.8cm;
+  color:gray;
+  background: rgb(235, 232, 221);
+  line-height: 49pt;
+  font-size: 15pt;
+  
+}
+
+#p {
+position: relative;
+left: -10px;
+  margin-top: 85px;
+  width: 12cm;
+  height: 1.7cm;
+  color:gray;
+  background: rgb(235, 232, 221);
+    line-height: 55px;
+}
+
+#section2 {
+  margin-bottom: 60px;
+  position: relative;
+  left: 80px;
+  top: 60px;
+  line-height: 1px; 
+   margin-top: 65px;
+  height:8cm;
+  width: 12cm;
+  background: rgb(235, 232, 221);
+    color: gray;
+}
+
+#article {
+  line-height: 45px; 
+  height: 5.7cm;
+  margin:auto;  
+  width: 14.5cm;  
+  margin-top: 35px;
+  background: gray;
+  color: rgb(235, 232, 221);
+  padding: 15px;
+  font-size: 14pt;
+}
+
+aside {
+  position: relative;
+  bottom: 302px;
+  left: -253px;
+  float: right;
+  height:8cm;
+  width: 13.4cm;
+  color: gray;  
+  background: rgb(235, 232, 221);
+
+}
+
+footer {
+  position: relative;
+  top: -275px;
+  left: 80px;
+  height: 2.5cm;
+  width: 75%;
+  clear: both;
+  background: rgb(235, 232, 221);
+  color: gray;
+  
+}
+
+@media only screen and (max-width: 768px ) {
+  body {
+      background-color: lightblue;
+  }
+}
